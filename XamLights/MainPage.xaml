@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamLights.MainPage">
+
+<Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="50" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="40" />
+      <RowDefinition Height="40" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+
+    <Label 
+     HorizontalOptions="Center"
+     FontAttributes="Bold"
+     Grid.Row="1" Text="Select a light source" />
+
+    <Picker
+     Grid.Row="2"
+     x:Name="LightList"
+    />
+
+
+     <Label 
+     HorizontalOptions="Center"
+     FontAttributes="Bold"
+     Grid.Row="3" Text="Select a scene source" />
+
+
+    <Picker
+     Grid.Row="4"
+     x:Name="SceneList"
+    />
+
+
+
+
+
+      <Entry 
+    		x:Name="ColorEntry"
+    		Grid.Row="5"
+    		BackgroundColor="Yellow"
+    		TextColor="Black"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="CenterAndExpand" 
+    />
+
+
+    <Button 
+    Grid.Row="6"
+    x:Name="SetColorButton"
+    		Text="Set Color"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+
+    <Label x:Name="CompassLabel"
+     HorizontalOptions="Center"
+     FontAttributes="Bold"
+     FontSize="50"
+     Grid.Row="7"/>
+
+      </Grid>
+
+</ContentPage>
