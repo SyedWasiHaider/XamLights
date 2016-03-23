@@ -18,4 +18,4 @@ An embarrassingly bad attempt at using Phillips Hue and Xamarin.
 
 
 ## Credit
-Thanks to the folks at Q42 for their awesome C# Hue SDK and Steveyo!
+Thanks to the folks at Q42 for their awesome C# Hue SDK, Steveyo and James Montemagno for his awesome Xamarin Plugins!
