@@ -1,5 +1,5 @@
 # XamLights
-An embarrassingly bad attempt at using Phillips Hue and Xamarin.
+Phillips Hue and Xamarin Sample
 
 ## How to:
 * If you have an actual bridge setup with lights, you'll want to build in release mode. Note that you must be on the same network as the bridge for this to work. When the app launches, make sure to click the hub button and the app will automatically connect.
